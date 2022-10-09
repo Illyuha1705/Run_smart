@@ -198,6 +198,13 @@
 
         }
     }
+
+    .modal {
+        &__close {
+            top: 5px;
+            right: 5px;
+        }
+    }
 }
 
 @media (max-width: 425px) {
@@ -255,6 +262,19 @@
 
         &__price {
             font-size: 17px;
+        }
+    }
+
+    .modal {
+        &__close {
+            top: 5px;
+            right: 30px;
+        }
+    }
+
+    .feed-form {
+        input {
+            width: 290px;
         }
     }
 

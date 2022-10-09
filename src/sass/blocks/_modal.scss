@@ -1,0 +1,47 @@
+@import '../basis/variables';
+
+.overlay {
+    display: none;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    background-color: rgba(0,0,0, .56);
+}
+
+.modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #F2F2F2;
+    padding: 40px;
+
+    &__close {
+        position: absolute;
+        top: 0;
+        right: -30px;
+        font-size: 41px;
+        line-height: 21px;
+        color: $main-color;
+        cursor: pointer;
+    }
+
+    &__subtitle {
+        font-weight: 700;
+        font-size: 19px;
+        text-align: center;
+        color: #0D0D0D;
+    }
+
+    &__descr {
+        font-weight: 700;
+        font-size: 14px;
+        text-align: center;
+        color: #0D0D0D;
+    }
+}
+
+#consultation, #order, #thanks {
+    display: none;
+}
