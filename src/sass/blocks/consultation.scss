@@ -9,4 +9,14 @@
         align-items: flex-end;
         color: #FFFFFF;
     }
+
+    .error {
+        border: 1px solid red;
+    }
+
+    label.error {
+        color: white;
+        border: none;
+        margin-bottom: 15px;
+    }
 }
